@@ -1,0 +1,44 @@
+.not-active {
+    max-width: 30%;
+    width: 100%;
+    height: auto;
+    margin: 16px 16px 100px 16px;
+    box-sizing: border-box;
+    position: relative;
+    .image {
+        width: 100%;
+        height: auto;
+    }
+    #i-switch {
+        
+        position: absolute;
+        right: 16px;
+        top: 15px;
+        border-radius: 50%;
+    }
+    .title {
+        position: absolute;
+        top: 99%;
+        right: 0;
+        color: #fff;
+        margin: 0;
+        z-index: 10;
+        background-color: #F44336;
+        width: calc(100% + 16px);
+    }
+    .title::before {
+        content: ' ';
+        position: absolute;
+        left: 0;
+        top: -16px;
+        width: 0;
+        border: 8px solid;
+        border-top-color: transparent;
+        border-right-color: #B71C1C;
+        border-bottom-color: #B71C1C;
+        border-left-color: transparent;
+    }
+    .about-actor {
+        display: none;
+    }
+}

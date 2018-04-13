@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400i,600i');
+@import 'header';
+@import 'footer';
+@import 'active';
+@import 'inactive';
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke; 
+}
+
+.container {
+    margin: auto;
+    max-width: 1360px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+

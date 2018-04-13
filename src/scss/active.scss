@@ -1,0 +1,64 @@
+.active {
+    max-width: 30%;
+    width: 100%;
+    height: auto;
+    margin: 16px ;
+    
+    position: relative;
+
+.image {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    z-index: 2;
+}
+#i-switch {
+    position: absolute;
+    right: 16px;
+    top: 78px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.title {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    margin: 0;
+    z-index: 1;
+    background-color: #F44336;
+    width: calc(100% + 16px);
+.title::before {
+        content: ' ';
+        position: absolute;
+        left: 0;
+        top: -16px;
+        width: 0;
+        border: 8px solid;
+        border-top-color: transparent;
+        border-right-color: #B71C1C;
+        border-bottom-color: #B71C1C;
+        border-left-color: transparent;
+    }   
+    h2 {
+        margin-left: 76px;
+        font-size: 24px;
+        width: 100%;
+        font-style: italic;
+    }
+}
+    .about-actor {
+        padding-top: 78px;;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+        article {
+            font-size: 20px;  
+            box-sizing: border-box;
+            padding: 50px 0;   
+        }
+    }
+}
